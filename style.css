@@ -57,6 +57,7 @@ section {
 .download-button {
   background-color:lightblue; 
   color: black; 
+  border-radius:8px;
 }
 
 
