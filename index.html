@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Navigation Bar</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ 
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="#">Portfolio</a>
+      <div class="navbar-photo">
+        <img src="./images/WhatsApp Image 2023-07-01 at 12.04.38 PM.jpeg" alt="Profile Photo" class="profile-photo">
+      </div>
+    </div>
+    
+    <ul class="navbar-links" id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+      
+    </ul>
+    <div class="navbar-toggle" onclick="toggleMenu()">
+      <div class="toggle-line"></div>
+      <div class="toggle-line"></div>
+      <div class="toggle-line"></div>
+    </div>
+    </nav>
+
+  <section id="home">
+    <h1>Welcome to the Home Section</h1>
+    <!-- Content for the home section -->
+    <h3>Hi,</h3>
+    <h4>I'am RIYAZ AHMED M</h4>
+    <h4>Web Developer</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+    </p>
+    <a href="./Resume/Resume_._Format1.pdf" download><button type="button" class="download-button">Download CV</button></a>
+    
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+    <div class="navbar-photo">
+      <img src="./images/WhatsApp Image 2023-07-01 at 12.04.38 PM.jpeg" alt="Profile Photo" class="profile-photo">
+    </div>
+    <!-- Content for the about section -->
+    <p>Name: Riyaz Ahmed M</p>
+    <P>Professional: Web Developer</P> 
+    <p> Education Details:</p>
+       <p>Instituation:C.Abdul Hakeem College Of Engineering And Technology,Melvisharam,Vellore District.
+        <p>Degree:'BE'</p>
+        <p>Major:'CSE'<p>
+        <p>GraduationYear:2022</p>
+        <p>CGPA:8.2</p>
+        
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nisi quod accusantium est rerum nemo beatae voluptatem eum libero, consectetur corporis, repellat doloribus nobis, fuga obcaecati! Voluptate similique laudantium minus!
+</p>
+    
+  
+    
+  </section>
+
+  <section id="skills">
+    <h1>Skills</h1>
+    <!-- Content for the skills section -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+      <li>React js</li>
+      <li>Node js</li>
+    </ul>
+  </section>
+
+  <section id="courses">
+    <h1>Courses</h1>
+    <!-- Content for the courses section -->
+    <p><b>Course Certificate:</b></p>
+    <p>1.Coursera website: HTML, CSS, Javascript for Web Developers </p>
+             <li><a href=https://www.coursera.org/account/accomplishments/verify/XXJMN7FSB2WQ>HTML, CSS< Javascript for Web Developers</a><li>
+
+    <P>2.Coursera website: Server-side Development with NodeJS, Express and MongoDB</P>
+             <li><a href=https://www.coursera.org/account/accomplishments/verify/TNGXBF9TXEDZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course>Server-side Development with NodeJS, Express and MongoDB</a><li>
+    <section id="works">
+    <h1>Works</h1>
+    <!-- Content for the works section -->
+    <p>Work Experience: 7 Months - Till Today </p>
+    <P>Company: Net Access India Limited in Parry's Corner Chennai - Murugappa Groups</P>
+    <p>Designation: System Engineer (HD and RHD)</p>
+  </section>
+
+  <section id="contact">
+    <h1>Contact</h1>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="email" placeholder="Email" name="email" required>
+      <textarea placeholder="Message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
